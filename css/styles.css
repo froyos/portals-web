@@ -1,218 +1,214 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  text-align: center;
 }
 
-h1 {
-    color: #9A0680;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 3rem;
-    font-weight: 550;
-    align-items: center;
-}
-
-h2 {
-    color: #ffffff;
-    font-size: 2.5rem;
-    padding: 0 23%;
-
-}
-
-h3{
-    font-weight: bold;
-    margin-top:2rem;
-}
-
-p{
+p {
     color: #8a8a8a;
     font-size: 1.2rem;
+  }
+
+/* Headings */
+
+.big-heading {
+  font-family: "Ubuntu", sans-serif;
+  color: #9a0680;
+  font-size: 3rem;
+  font-weight: 550;
 }
 
-em {
-    color: #fff;
+.normal-heading {
+  color: #ffffff;
+  font-size: 2.5rem;
+  padding: 0 23%;
+}
+
+.small-heading {
+  font-weight: bold;
+  margin-top: 2rem;
 }
 
 /* Navbar */
 
-.navbar{
-    padding: 0 0 4.5rem;
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 /* Title */
 
 #title {
-    background-color: #160040;
-    padding: 50px 50px 150px;
+  background-color: #160040;
+  padding: 50px 50px 150px;
 }
 
 .portal {
-    width: -webkit-fill-available;
-    max-width: 40rem;
-}
-
-.title-image {
-    text-align: center;
+  width: -webkit-fill-available;
+  max-width: 40rem;
 }
 
 .title-row {
-    align-items: center;
-    justify-content:baseline;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.title-text {
+  text-align: left;
 }
 
 /* Pre-order Button */
 
 .pre-order {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
 
 /* Features */
 
 #features {
-    background-color: #4C0070;
-    color: rgb(255, 255, 255);
-    padding: 7% 15%;
+  background-color: #4c0070;
+  color: rgb(255, 255, 255);
+  padding: 7% 15%;
 }
 
 .feature-box {
-    padding: 4.5%;
-    text-align: center;
+  padding: 4.5%;
 }
 
 .icon {
-    color:#79018C;
+  color: #79018c;
 }
 
 .icon:hover {
-    color:#9600ad;
+  color: #9600ad;
 }
 
 /* Testimonials */
 
 #testimonials {
-    background-color: #79018C;
-    text-align: center;
+  background-color: #79018c;
 }
 
 .carousel-inner {
-    padding: 10% 5% 0;
+  padding: 10% 5% 0;
 }
 
 .testimonial-image {
-    width: 10%;
-    margin: 5% 3% 5% 0;
+  width: 10%;
+  margin: 5% 3% 5% 0;
+}
+
+.testimonial-who {
+  color: #fff;
 }
 
 /* Press */
 
 #press {
-    background-color: #79018C;
-    text-align: center;
-    padding: 5% 5%;
+  background-color: #79018c;
+  padding: 5% 5%;
 }
 
 .press-image {
-    width: 1%;
-    min-width: 200px;
-    margin: 5% 3%;
+  width: 1%;
+  min-width: 200px;
+  margin: 5% 3%;
 }
 
 /* Pricing */
 
-#pricing {
-    text-align: center;
-}
-
-.card-deck  {
-    padding: 5%;
-    margin: 0;
+.card-deck {
+  padding: 5%;
+  margin: 0;
 }
 
 .card-footer {
-    background-color: #ffffff00;
-    border-top: 0;
+  background-color: #ffffff00;
+  border-top: 0;
 }
 
 .pricing-title {
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 5%;
+  padding-top: 5%;
 }
 
 .pricing-outline-btn {
-    background-color: #343a4000;
-    border-color: #9A0680;
+  background-color: #343a4000;
+  border-color: #9a0680;
 }
 
 .pricing-outline-btn:hover {
-    color: #fff;
-    background-color: #9A0680;
-    border-color: #9A0680;
+  color: #fff;
+  background-color: #9a0680;
+  border-color: #9a0680;
 }
 
 .pricing-btn {
-    color: #fff;
-    background-color: #9A0680;
-    border-color: #9A0680;
+  color: #fff;
+  background-color: #9a0680;
+  border-color: #9a0680;
 }
 
 .pricing-btn:hover {
-    color: #fff;
-    background-color: #85046d;
-    border-color: #85046d;
+  color: #fff;
+  background-color: #85046d;
+  border-color: #85046d;
 }
 
 /* Call to Action */
 
 #cta {
-    background-color: #9A0680;
-    text-align: center;
-    padding: 10%;
+  background-color: #9a0680;
+  padding: 10%;
 }
 
 .cta-title {
-    color: #fff;
-    margin: 5% 0 5%;
-    font-size: 3rem;
+  color: #fff;
+  margin: 5% 0 5%;
+  font-size: 3rem;
 }
 
 .cta-btn {
-    font-size: 1.2rem;
-    width: 50%;
-    height: 5rem;
-    padding: 0;
-    margin: 0 auto 2%;
+  font-size: 1.2rem;
+  width: 50%;
+  height: 5rem;
+  padding: 0;
+  margin: 0 auto 2%;
 }
 
 .cta-btn:hover {
-    color: #fff;
-    background-color: #79018C;
-    border-color: #79018C;
+  color: #fff;
+  background-color: #79018c;
+  border-color: #79018c;
 }
 
 /* Footer */
 
 #footer {
-    background-color: #160040;
-    padding: 1rem;
-    text-align: center;
+  background-color: #160040;
+  padding: 7% 15%;
 }
 
 #footer p {
-    color: #c0c0c0;
-    margin: 1rem 0;
+  color: #c0c0c0;
+  margin: 1rem 0;
+}
+
+@media (max-width: 934px) {
+  .title-text {
+    text-align: center;
+  }
 }
